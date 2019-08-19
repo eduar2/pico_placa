@@ -3,8 +3,8 @@ var moment = require('moment');
 let previousTime = [{ start: "07:00", end: "09:30" }, { start: "16:00", end: "19:30" }];
 let newTime = [{ start: "05:00", end: "20:00" }];
 
-validatePlateNumber('PDI-3528','12/09/2019', '15:00')
-function validatePlateNumber(plateNumber, date, time) {
+//validatePlateNumber('PDI-3528','12/09/2019', '15:00')
+module.exports= function validatePlateNumber(plateNumber, date, time) {
     moment().weekday(0)
     try {
         if (validateFields(plateNumber, date, time)) {

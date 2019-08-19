@@ -2,10 +2,19 @@
   "name": "not-today",
   "version": "1.0.0",
   "description": "Validator of \"Hoy no Circula\" or how it was known before \"Pico y Placa\"",
-  "main": "canDriveValidation.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "EA",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduar2/pico_placa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduar2/pico_placa/issues"
+  },
+  "homepage": "https://github.com/eduar2/pico_placa#readme"
 }
